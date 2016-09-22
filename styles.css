@@ -31,6 +31,7 @@ header ul{
 .colA{
 margin-top: 100px;
 text-align:left;
+<<<<<<< HEAD
 margin-bottom:-30px;
 margin-left: 40px;
 }
@@ -40,14 +41,30 @@ margin-left: 40px;
 	margin-left: -100px;
 
 
+=======
+margin-top: 10px;
+font-variant:small-caps;
+font-size:24px;
+
+}
+
+.colB{
+	text-align:right;
+>>>>>>> origin/master
 
 }
 
 .date{
 
 	text-align: center;
+<<<<<<< HEAD
 	position:relative;
 
+=======
+	width:250px;
+	margin:auto;
+	clear:both;
+>>>>>>> origin/master
 }
 
 .heading {
