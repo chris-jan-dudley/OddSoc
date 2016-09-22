@@ -42,6 +42,8 @@ margin-top: 10px;
 .date{
 	text-align: center;
 	width:100px;
+	margin:auto;
+	clear:both;
 }
 
 .heading {
