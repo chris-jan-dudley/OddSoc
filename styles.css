@@ -17,6 +17,12 @@ header {
 	align-items: center;
 }
 
+h1 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:500;	
+	font-size:42px;
+}
+
 header ul{
 	width:50%;
 	clear:both;
