@@ -31,7 +31,6 @@ header ul{
 .colA{
 margin-top: 100px;
 text-align:left;
-<<<<<<< HEAD
 margin-bottom:-30px;
 margin-left: 40px;
 }
@@ -41,30 +40,14 @@ margin-left: 40px;
 	margin-left: -100px;
 
 
-=======
-margin-top: 10px;
-font-variant:small-caps;
-font-size:24px;
-
-}
-
-.colB{
-	text-align:right;
->>>>>>> origin/master
 
 }
 
 .date{
 
 	text-align: center;
-<<<<<<< HEAD
 	position:relative;
 
-=======
-	width:250px;
-	margin:auto;
-	clear:both;
->>>>>>> origin/master
 }
 
 .heading {
@@ -98,36 +81,36 @@ header ul li{
 }
 
 /* Remove margins and padding from the list, and add a black background color */
-ul.topnav {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: 	#000000;
 }
 
-.navbar {
+.nav{
 	width: 100%;
 	margin:0 auto;
 	height: 55px;
-	background-color: #333;
+	background-color: #000000;
 	margin-top: -10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 0px 0px 10px #535353;
+	box-shadow: 0px 0px 10px #333;
 	position: fixed;
 	left:-1px;
 	z-index:1;
 }
 
 /* Float the list items side by side */
-ul.topnav li {float: left;}
+ul.nav li {float: left;}
 
 /* Style the links inside the list items */
-ul.topnav li a {
+ul.nav li a {
     display: inline-block;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -137,8 +120,93 @@ ul.topnav li a {
 }
 
 /* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #555;}
+ul.nav li a:hover {background-color:#000000;}
 
 /* Hide the list item that contain
 s the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
+ul.nav li.icon {display: none;}
+
+.nav ul {
+  list-style: none;
+  background-color: #000000;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: left;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #000000;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #808080;
+}
+
+.nav a.active {
+  background-color: #aaa;
+  color: #444;
+  cursor: default;
+}
+
+/* Sub Menus */
+.nav li li {
+  font-size: .8em;
+}
+
+/*******************************************
+   Style menu for larger screens
+
+   Using 650px (130px each * 5 items), but ems
+   or other values could be used depending on other factors
+********************************************/
+
+@media screen and (min-width: 650px) {
+  .nav li {
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  .nav a {
+    border-bottom: none;
+  }
+
+  .nav > ul > li {
+    text-align: center;
+  }
+
+  .nav > ul > li > a {
+    padding-left: 0;
+  }
+
+  /* Sub Menus */
+  .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  .nav li:hover ul {
+    display: block;
+  }
+
+  .nav li ul li {
+    display: block;
+  }
+}
