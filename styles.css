@@ -31,17 +31,19 @@ header ul{
 .colA{
 text-align:left;
 margin-top: 10px;
+font-variant:small-caps;
+font-size:24px;
 
 }
 
 .colB{
-	text-align:center;
+	text-align:right;
 
 }
 
 .date{
 	text-align: center;
-	width:100px;
+	width:250px;
 	margin:auto;
 	clear:both;
 }
