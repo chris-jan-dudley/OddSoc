@@ -92,7 +92,7 @@ ul.nav {
 .nav{
 	width: 100%;
 	margin:0 auto;
-	height: 55px;
+	height: 61px;
 	background-color: #000000;
 	margin-top: -10px;
 	display: flex;
@@ -136,10 +136,11 @@ ul.nav li.icon {display: none;}
 }
 
 .nav li {
-  font-family: 'Oswald', sans-serif;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   line-height: 40px;
   text-align: left;
+  font-variant:small-caps;
 }
 
 .nav a {
@@ -147,6 +148,7 @@ ul.nav li.icon {display: none;}
   color: #fff;
   display: block;
   padding-left: 15px;
+  padding-top:5px;
   border-bottom: 1px solid #000000;
   transition: .3s background-color;
 }
