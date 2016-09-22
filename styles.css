@@ -127,11 +127,12 @@ s the link that should open and close the topnav on small screens */
 ul.nav li.icon {display: none;}
 
 .nav ul {
+  width:750px;
   list-style: none;
   background-color: #000000;
   text-align: center;
   padding: 0;
-  margin: 0;
+  margin: auto;
 }
 
 .nav li {
@@ -174,13 +175,13 @@ ul.nav li.icon {display: none;}
 
 @media screen and (min-width: 650px) {
   .nav li {
-    width: 130px;
+    width: 150px;
     border-bottom: none;
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
     display: inline-block;
-    margin-right: -4px;
+
   }
 
   .nav a {
@@ -198,12 +199,15 @@ ul.nav li.icon {display: none;}
   /* Sub Menus */
   .nav li ul {
     position: absolute;
-    display: none;
+    visibility: hidden;
+  	opacity: 0;
+  	transition: visibility 0.3s, opacity 0.3s linear;
     width: inherit;
   }
 
   .nav li:hover ul {
-    display: block;
+    visibility: visible;
+  opacity: 1;
   }
 
   .nav li ul li {
