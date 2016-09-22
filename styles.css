@@ -28,6 +28,21 @@ header ul{
 
 }
 
+.colA{
+text-align:left;
+margin-top: 10px;
+
+}
+
+.colB{
+	text-align:center;
+
+}
+
+.date{
+	text-align: center;
+}
+
 .heading {
 	text-align: center;
 	margin-right: auto;
