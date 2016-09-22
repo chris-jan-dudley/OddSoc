@@ -29,18 +29,25 @@ header ul{
 }
 
 .colA{
+margin-top: 100px;
 text-align:left;
-margin-top: 10px;
-
+margin-bottom:-30px;
+margin-left: 40px;
 }
 
 .colB{
 	text-align:center;
+	margin-left: -100px;
+
+
 
 }
 
 .date{
+
 	text-align: center;
+	position:relative;
+
 }
 
 .heading {
