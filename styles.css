@@ -36,14 +36,17 @@ header ul li{
 }
 
 .center_div{
-	width:50%;
-	height:1000px;;
-	margin:auto;
-	padding:10px;
+	margin: 0 auto;
+	width:80%;
+	max-width: 700px;
+	height: 900px;
+	margin-top: 80px;
+	margin-bottom: -50px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 10px #535353;
+	padding:5px;
 	clear:both;
-	text-align:center;
-	box-shadow: 0px 0px 10px #999;
-	background-color:#FFF;
+	display: inline-block;
 }
 
 /* Remove margins and padding from the list, and add a black background color */
